@@ -1,0 +1,170 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  color: #9494b8;
+  padding-bottom: 10px;
+}
+.intro{
+  font-family: cursive;
+  font-weight: bold;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a{
+  color: #3385ff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+div{
+  background-color: #99ffd6;
+}
+
+.name{
+  color: #EAF6F6;
+}
+
+hr{
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 9%;
+  margin: 100px auto;
+}
+.profile{
+color: black;
+
+}
+
+.top-container{
+  background-color: #ccffeb;
+  position: relative;
+  padding-top: 190px;
+  }
+
+.middle-container {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  }
+.bottom-container {
+  background-color: #6666FF;
+}
+.profile-pic{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 10px:
+}
+.achievement-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.nasa-img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  float:left;
+  margin-right: 30px;
+}
+
+.journal-img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  float:right;
+  margin-left: 30px;
+}
+
+.skills-pic{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: 45%;
+}
+.skill-row{
+  width: 80%;
+  margin:auto;
+  text-align: left;
+}
+
+.table-content {
+  table-layout: auto;
+  margin: 10%;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.top-cloud{
+  position:absolute;
+  right: 20%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+}
+
+.mountain-pic {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
